@@ -18,7 +18,7 @@ export class BaseService {
         }
     }
     public baseurl(): string {
-        return 'http://localhost/ProjectManagementServer/';
+        return 'http://localhost:50830/';
     }
 
     protected handleError(error: any) {
